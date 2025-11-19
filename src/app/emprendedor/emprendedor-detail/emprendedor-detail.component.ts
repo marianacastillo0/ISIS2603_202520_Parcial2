@@ -9,7 +9,7 @@
     selector: 'app-emprendedor-detail',
     standalone: false,
     templateUrl: './emprendedor-detail.component.html',
-    styleUrl: './emprendedor-detail.component.css'
+    styleUrls: ['./emprendedor-detail.component.css']
   })
   export class EmprendedorDetailComponent implements OnInit {
     
