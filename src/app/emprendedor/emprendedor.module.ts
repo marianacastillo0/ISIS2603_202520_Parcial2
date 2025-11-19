@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EmprendedorListComponent } from './emprendedor-list/emprendedor-list.component';
 import { EmprendedorDetailComponent } from './emprendedor-detail/emprendedor-detail.component';
+import { Router, RouterModule } from '@angular/router';
 
 
 
@@ -11,7 +12,8 @@ import { EmprendedorDetailComponent } from './emprendedor-detail/emprendedor-det
     EmprendedorDetailComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     EmprendedorListComponent
